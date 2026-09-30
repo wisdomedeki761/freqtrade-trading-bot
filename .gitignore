@@ -94,13 +94,19 @@ site/
 # PyBuilder
 target/
 
+# AI Agents
+*.local.md
+.cursor/
+.codex/
+.claude/*.local.json
+.claude/**/*.log
+
 # Jupyter Notebook
 *.ipynb_checkpoints
 
 # pyenv
 .python-version
 
-.env
 .venv
 .idea
 
@@ -118,3 +124,5 @@ branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
 .gitignore
+config.bat
+node_modules
